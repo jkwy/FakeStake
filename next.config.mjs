@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+module.exports = {
+  output: 'standalone', // Best for Vercel
+  images: { unoptimized: true }, // Disable optimization if not needed
+}
